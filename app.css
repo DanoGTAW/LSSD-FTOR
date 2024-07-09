@@ -1,0 +1,55 @@
+body.dark-mode {
+    background-color: #1b1c1d;
+    color: #e8e8e8;
+}
+
+body.dark-mode .ui.form, body.dark-mode .ui.segment {
+    background-color: #333;
+    border-color: #555;
+}
+
+body.dark-mode input, body.dark-mode textarea {
+    background-color: #555;
+    color: #fff;
+}
+
+body.dark-mode .ui.radio.checkbox label {
+    color: #fff;
+}   
+
+body.dark-mode h4.ui.dividing.header {
+    color: #e8e8e8;
+    border-bottom: 1px solid #555;
+}
+
+body.dark-mode .ui.segment label {
+    color: #e8e8e8;
+}
+
+body.dark-mode .ui.segment .inline.fields label.header {
+    color: #e8e8e8;
+}
+
+body.dark-mode .ui.segment .ui.secondary.button {
+    background-color: #e0e1e2;
+    color: #1b1c1d;
+}
+
+.ui.container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.inline.fields .header {
+    width: 250px !important;
+}
+
+.separa {
+    margin-left: 120px;
+}
+
+.cust-hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(34, 36, 38, .15);
+}
