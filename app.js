@@ -182,7 +182,7 @@ LOS SANTOS COUNTY SHERIFF'S DEPARTMENT — FIELD TRAINING PROGRAM[/size]
 
 [transtable=Arial]
 [tr]
-[td][b][center][size=90]PATROL NARRATIVE & DOCUMENTED SITUATIONS[/size][/center][/b][/td]
+[td][b][center][size=90]DELIVERED PRACTICAL & THEORETICAL KNOWLEDGE[/size][/center][/b][/td]
 [/tr]
 [tr]
 [td]
