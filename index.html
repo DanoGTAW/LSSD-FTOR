@@ -203,6 +203,47 @@
                     <textarea id="attitude_comments" placeholder="Attitude comments here..."></textarea>
                 </div>
             </div>
+
+            <div class="ui segment">
+                <h2>Appearance</h2>
+                <div class="inline fields">
+                    <label for="field5" class="header">General Appearence:</label>
+                    <div class="field">
+                        <div class="ui radio checkbox">
+                            <input type="radio" name="field5" checked="" value="N/O" tabindex="0" class="hidden">
+                            <label>Not Observed</label>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="ui radio checkbox">
+                            <input type="radio" name="field5" value="C" tabindex="0" class="hidden">
+                            <label>Competent</label>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="ui radio checkbox">
+                            <input type="radio" name="field5" value="S" tabindex="0" class="hidden">
+                            <label>Superior</label>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="ui radio checkbox">
+                            <input type="radio" name="field5" value="N/I" tabindex="0" class="hidden">
+                            <label>Needs Improvement</label>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="ui radio checkbox">
+                            <input type="radio" name="field5" value="NRT" tabindex="0" class="hidden">
+                            <label>Not Responding To Training</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="field">
+                    <textarea id="appearance_comments" placeholder="Appearance comments here..."></textarea>
+                </div>
+            </div>
+
             <div class="ui segment">
                 <h2>Relationships</h2>
                 <div class="inline fields">
@@ -278,39 +319,6 @@
             <div class="ui segment">
                 <h2>Performance</h2>
                 <div class="inline fields">
-                    <label for="field5" class="header">General Appearence:</label>
-                    <div class="field">
-                        <div class="ui radio checkbox">
-                            <input type="radio" name="field5" checked="" value="N/O" tabindex="0" class="hidden">
-                            <label>Not Observed</label>
-                        </div>
-                    </div>
-                    <div class="field">
-                        <div class="ui radio checkbox">
-                            <input type="radio" name="field5" value="C" tabindex="0" class="hidden">
-                            <label>Competent</label>
-                        </div>
-                    </div>
-                    <div class="field">
-                        <div class="ui radio checkbox">
-                            <input type="radio" name="field5" value="S" tabindex="0" class="hidden">
-                            <label>Superior</label>
-                        </div>
-                    </div>
-                    <div class="field">
-                        <div class="ui radio checkbox">
-                            <input type="radio" name="field5" value="N/I" tabindex="0" class="hidden">
-                            <label>Needs Improvement</label>
-                        </div>
-                    </div>
-                    <div class="field">
-                        <div class="ui radio checkbox">
-                            <input type="radio" name="field5" value="NRT" tabindex="0" class="hidden">
-                            <label>Not Responding To Training</label>
-                        </div>
-                    </div>
-                </div>
-                <div class="inline fields">
                     <label for="field2" class="header">Driving Skill: All Conditions:</label>
                     <div class="field">
                         <div class="ui radio checkbox">
@@ -339,39 +347,6 @@
                     <div class="field">
                         <div class="ui radio checkbox">
                             <input type="radio" name="field8" value="NRT" tabindex="0" class="hidden">
-                            <label>Not Responding To Training</label>
-                        </div>
-                    </div>
-                </div>
-                <div class="inline fields">
-                    <label for="field2" class="header">Driving Skill: Emergency Driving:</label>
-                    <div class="field">
-                        <div class="ui radio checkbox">
-                            <input type="radio" name="field24" checked="" value="N/O" tabindex="0" class="hidden">
-                            <label>Not Observed</label>
-                        </div>
-                    </div>
-                    <div class="field">
-                        <div class="ui radio checkbox">
-                            <input type="radio" name="field24" value="C" tabindex="0" class="hidden">
-                            <label>Competent</label>
-                        </div>
-                    </div>
-                    <div class="field">
-                        <div class="ui radio checkbox">
-                            <input type="radio" name="field24" value="S" tabindex="0" class="hidden">
-                            <label>Superior</label>
-                        </div>
-                    </div>
-                    <div class="field">
-                        <div class="ui radio checkbox">
-                            <input type="radio" name="field24" value="N/I" tabindex="0" class="hidden">
-                            <label>Needs Improvement</label>
-                        </div>
-                    </div>
-                    <div class="field">
-                        <div class="ui radio checkbox">
-                            <input type="radio" name="field24" value="NRT" tabindex="0" class="hidden">
                             <label>Not Responding To Training</label>
                         </div>
                     </div>
@@ -890,16 +865,9 @@
             <div class="ui segment">
                 <h2>Patrol Details</h2>
                 <div class="field">
-                    <label>Most Satisfactory Performance</label>
+                    <label>Report & Narrative</label>
                     <textarea id="positive"
-                        placeholder="Must include the area the trainee excelled in or showcased great practical understanding of. Make sure to include a detailed narrative of how they excelled in the chosen area(s) by applying their knowledge in the field."></textarea>
-                </div>
-                <div class="field">
-                    <label>Least Satisfactory Performance</label>
-                    <textarea id="negative"
-                        placeholder="Must include the area that the trainee lacked in or could improve (e.g. Trainee is unable to make an independent decision on their own) as well as the exact event(s) referencing the deficiency (e.g. Trainee initially did not respond to the assistance call of the vehicle pursuit on the black Sultan, until he was nudged by me).
-
-                    The most important part of the report, as this is the documentation for what the trainee should work to improve on and what the next FTO should focus on."></textarea>
+                        placeholder="Must include the area the trainee excelled in or showcased great practical understanding of / lacked in or could improve. Make sure to include a detailed patrol narrative mentioning what they done, what scenes did they respond, and their reaction to it."></textarea>
                 </div>
                 <div class="field">
                     <label>Delivered Practical & Theoretical Knowledge</label>
@@ -938,7 +906,7 @@
             }
         });
     </script>
-    <script src="app.js?v=5.1"></script>
+    <script src="app.js?v=5"></script>
 </body>
 
 </html>
